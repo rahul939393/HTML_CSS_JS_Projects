@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+    <!-- First  Calculator -->
+
+    <div class="main">
+
+        <ul class="center">
+            <li id="add">Addition</li>
+            <li id="sub">Subtraction</li>
+            <li id="multi">Multiplication</li>
+            <li id="div">Division</li>
+            <li id="rem">Remainder</li>
+
+            <button class="btn" onclick="calculation()">Calculate</button>
+
+            <li id="result"></li>
+        </ul>
+    </div>
+
+
+
+
+
+    <!-- Second Calculator -->
+
+    <div class="main-2">
+        <div class="content">
+
+            <label>Enter 1st Number:</label><br>
+            <input type="number" id="num1">
+            <br><br>
+
+            <select name="Calculation " id="options"  >
+                <option id="add" value="addition">Addition</option>
+                <option id="sub" value="subtraction">Subtraction</option>
+                <option id="multi" value="multiplication">Multiplication</option>
+                <option id="div" value="division">Division</option>
+                <option id="rem" value="remainder">Remainder</option>
+            </select>
+            <br><br>
+
+            <label>Enter 2nd Number:</label><br>
+            <input type="number" id="num2">
+
+            <button class="btn" onclick="calculate()">Calculate</button>
+
+            <input type="text" id="answer" disabled>
+
+        </div>
+
+    </div>
+
+
+    <!-- Custom JavaScript -->
+
+    <script src="script.js"></script>
+</body>
+</html>

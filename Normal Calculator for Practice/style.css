@@ -1,0 +1,124 @@
+
+ /* First Calculator */
+
+ body {
+     font-family: sans-serif;
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     gap: 20%;
+ }
+
+ ul {
+     width: 230px;
+     border: 1px solid rgb(0, 0, 0);
+     border-radius: 0.8rem;
+     margin-top: 100px;
+     list-style: none;
+     margin-left: 50px;
+     padding: 20px;
+     background-color: #EAD196;
+ }
+
+ ul li {
+     width: 200px;
+     padding: 13px;
+     font-size: 1.2rem;
+     margin-bottom: 0.7rem;
+     border: 1px solid rgb(0, 0, 0);
+     border-radius: 0.5rem;
+     background-color: #F3EDC8;
+ }
+
+ .btn {
+     width: 100%;
+     font-size: 1rem;
+     margin-top: 15px;
+     padding: 10px;
+     cursor: pointer;
+     border: 1px solid rgb(0, 0, 0);
+     border-radius: 0.5rem;
+     box-shadow: none;
+     -webkit-transition: all 0.3s;
+     transition: all 0.3s;
+ }
+
+ .btn:hover {
+     transform: scale(1.03);
+ }
+
+ #result {
+     height: auto;
+     min-height: 1.3rem;
+     text-align: center;
+     font-size: 1.3rem;
+     margin-top: 0.7rem;
+     padding: 11px;
+     font-weight: 600;
+ }
+
+ /* Second Calculator */
+
+ .main-2 {
+     width: 200px;
+     height: 280px;
+     padding: 0.5rem 1.5rem;
+     padding-bottom: 5rem;
+     font-size: 1.1rem;
+     margin-right: 0.5rem;
+     margin-bottom: 0.7rem;
+     border: 1px solid rgb(0, 0, 0);
+     border-radius: 0.5rem;
+     background-color: #86B6F6;
+ }
+
+ .main-2 button {
+     margin-bottom: 0.5rem;
+ }
+
+ .content {
+     margin-top: 32px;
+ }
+
+ .main-2 input {
+     max-width: 90%;
+     margin-top: 3px;
+     background-color: #B4D4FF;
+     border: none;
+     font-size: 1.1rem;
+     padding: 6px 14px;
+     border-radius: 1rem;
+     margin-left: -6px;
+ }
+
+ .main-2 input:focus,
+ #options:focus {
+     border: none;
+     box-shadow: none;
+     -webkit-transition: all 0.3s;
+     transition: all 0.3s;
+ }
+
+ .main-2 input:focus {
+     transform: scale(1.03);
+ }
+
+ #options {
+     width: 100%;
+     border: none;
+     font-size: 1rem;
+     border-radius: 1rem;
+     padding: 6px;
+     margin-left: -6px;
+ }
+
+ #options option {
+     font-size: 0.9rem;
+     padding: 13px;
+ }
+
+ #answer {
+     height: 30px;
+     font-size: 1.3rem;
+     border-radius: 0.2rem;
+ }
